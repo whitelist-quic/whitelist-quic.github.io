@@ -9,4 +9,4 @@ SNI проверены 25.09.2026.
 **23.09.2026**: найдены ещё 2 рабочих SNI: `kg-portal.ru`, `kuban24.tv`  
 **23.09.2026**: перестали работать SNI: `dzen.ru`, `mail.ru`, `sportmail.ru`, `vk.ru`, `vkvideo.ru`  
 **24.09.2026**: найден ещё один рабочий SNI: `medelement.com`  
-**24.09.2026**: найден ещё один рабочий SNI: `lentainform.com`  
+**25.09.2026**: найден ещё один рабочий SNI: `lentainform.com`  
