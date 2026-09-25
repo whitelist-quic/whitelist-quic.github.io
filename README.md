@@ -1,5 +1,5 @@
 # Белый список SNI для QUIC (HTTP/3) для сетей Proton VPN  
-[whitelist_for_quic.txt](https://raw.githubusercontent.com/whitelist-quic/whitelist-quic.github.io/refs/heads/main/whitelist_for_quic.txt)  
+[whitelist_for_quic.txt](https://whitelist-quic.github.io/whitelist_for_quic.txt)  
 SNI проверены 25.09.2026.  
 268 SNI:
 - из них три нероссийских: `pypi.org`, `deepseek.com`, `joomag.com`,  
