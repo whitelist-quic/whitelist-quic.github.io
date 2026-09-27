@@ -2,11 +2,11 @@
 <html lang="ru">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Белый список SNI для QUIC (HTTP/3) для сетей Proton VPN</title>
+  <title>Белый список SNI для QUIC (HTTP/3 - UDP) для сетей Proton VPN</title>
 </head>
 <body>
   <div>
-    <h1>Белый список SNI для QUIC (HTTP/3) для сетей Proton VPN</h1>
+    <h1>Белый список SNI для QUIC (HTTP/3 - UDP) для сетей Proton VPN</h1>
     <p>
       <a href="https://whitelist-quic.github.io/whitelist_for_quic.txt">whitelist_for_quic.txt</a>  
     </p>
@@ -26,16 +26,36 @@
       <b>24.09.2026</b>: найден ещё один рабочий SNI: <code>medelement.com</code><br />  
       <b>25.09.2026</b>: найден ещё один рабочий SNI: <code>lentainform.com</code><br />  
       <b>27.09.2026</b>: найдены ещё четыре рабочих SNI: <code>crpt.ru</code>, <code>rabota.ru</code>, <code>reg.ru</code>, <code>rosminzdrav.ru</code><br />  
-      </p>
-      <h2>Генераторы и конвертеры конфигов для WARP VPN и Proton VPN</h2>
+    </p>
+    <h2>Для чего может использоваться</h2>
     <p>
-      <a href="https://generation-warp.github.io/">generation-warp</a>
+      Для маскировки трафика под протокол QUIC HTTP/3 - UDP с целью доступа по протоколам UDP (Wireguard, Discord, MASQUE И т. д.) 
+      к сайтам, серверам VPN (например, WARP VPN, Proton VPN), игровым серверам и т. д. 
+      с помощью создания фейковых сетевых пакетов (блобов) QUIC initial с данными SNI или прямым указанием SNI в настройках программ.
+      Например, для доступа к серверам Proton VPN и WARP VPN по протоколу Wireguard могут использоваться конфиги в формате AmneziaWG (AWG), содержащие параметры I1 - I5, содержащие фейки QUIC Initial со SNI из списка
+      (клиенты WG Tunnel, WireSock, AmneziaWG, AmneziaVPN), 
+      или параметр Id равный SNI из списка в конфиге для WireSock.
+    </p>
+    <h2>Генераторы и конвертеры конфигов для WARP VPN и Proton VPN</h2>
+    <p>
+      <a href="https://generation-warp.github.io/">generation-warp</a>. 
+      Выдаёт готовый конфиг в формате для AWG или WireSock или Clash Verge.
+      В генераторе есть возможность указать SNI для генерации параметров I1 - I5.
     </p>
     <p>
-      <a href="https://generation-proton.github.io/">generation-proton</a>
+      <a href="https://generation-proton.github.io/">generation-proton</a>. 
+      Выдаёт готовый конфиг в формате для AWG или WireSock или Clash Verge. 
+      В генераторе есть возможность указать SNI для генерации параметров I1 - I5.
     </p>
     <p>
       <a href="https://proton-convertion.github.io/">proton-convertion</a>
+      Конвертирует конфиг Wireguard в формат для AWG или WireSock или Clash Verge.
+      В конверторе есть возможность указать SNI для генерации параметров I1 - I5.
+    </p>
+    <p>
+      <a href="https://sageptr.github.io/mini_quic_generator/">Mini QUIC Generator</a>. 
+      Позволяет сгенерировать фейковый пакет QUIC initial с заданным SNI. 
+      В настройах там обязательно нужно сменить "+++ Cut Zeroes" на что-то другое.
     </p>
     <!--
     <p>
@@ -44,14 +64,16 @@
     -->
     <h2>VPN-клиенты</h1>
     <p>
-      <a href="https://play.google.com/store/apps/details?id=com.zaneschepke.wireguardautotunnel">WG Tunnel для Android</a>
+      <a href="https://play.google.com/store/apps/details?id=com.zaneschepke.wireguardautotunnel">WG Tunnel для Android</a>.
     </p>
     <p>
-      <a href="https://www.wiresock.net/wiresock-secure-connect/download">WireSock для Windows</a>
+      <a href="https://www.wiresock.net/wiresock-secure-connect/download">WireSock для Windows</a>.
     </p>
-
-
-	  
+    <p>
+      <a href="https://github.com/eleutherifer/usque-app/releases">Usque для Android</a>.
+      Позволяет подключиться к WARP VPN по протоколу MASQUE.
+      SNI указывается в параметрах программы.
+    </p>
   </div>
 </body>
 </html>
