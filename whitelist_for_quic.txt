@@ -101,7 +101,6 @@ kartaslov.ru
 karusel-tv.ru
 kg-portal.ru
 khl.ru
-kinopoisk.ru
 knigogid.ru
 kodeks.ru
 kolesa.ru
@@ -180,14 +179,11 @@ povar.ru
 professionali.ru
 profi.ru
 proza.ru
-psbank.ru
 pypi.org
 rabota.ru
 radiomayak.ru
 radiorus.ru
 radiovesti.ru
-rbc.ru
-reg.ru
 regmarkets.ru
 ren.tv
 rgo.ru
