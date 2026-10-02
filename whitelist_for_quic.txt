@@ -1,7 +1,6 @@
 175bru.ru
 1tv.ru
 2an.ru
-2gis.ru
 360tv.ru
 4ege.ru
 5-tv.ru
@@ -24,7 +23,6 @@ baby.ru
 babyblog.ru
 bashinform.ru
 bbr.ru
-beeline.ru
 belkacar.ru
 blizko.ru
 bolshoi.ru
@@ -49,7 +47,6 @@ delivery-club.ru
 dellin.ru
 dixy.ru
 dnevnik.ru
-dns-shop.ru
 docdoc.ru
 doctis.ru
 domashniy.ru
@@ -76,7 +73,6 @@ fss.ru
 fssprus.ru
 garant.ru
 gaso.ru
-gismeteo.ru
 gks.ru
 gosfilmofond.ru
 goskatalog.ru
@@ -134,7 +130,6 @@ medikforum.ru
 medlinks.ru
 medportal.ru
 medside.ru
-megafon.ru
 mel.fm
 mirtesen.ru
 mirtv.ru
@@ -157,7 +152,6 @@ nkj.ru
 nplus1.ru
 nskbl.ru
 nsportal.ru
-ntv.ru
 nukadeti.ru
 obrazovaka.ru
 ohotniki.ru
@@ -194,7 +188,6 @@ rosminzdrav.ru
 rosreestr.ru
 rosuchebnik.ru
 rsl.ru
-rt.ru
 rulit.me
 rusarchives.ru
 rusbiathlon.ru
@@ -226,7 +219,6 @@ sudrf.ru
 sut.ru
 tamtam.chat
 tatar-inform.ru
-tele2.ru
 teleprogramma.pro
 tiu.ru
 tnt-online.ru
